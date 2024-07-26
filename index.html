@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XLSX to HTML Table</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>XLSX to HTML Table</h1>
+    </header>
+    <main>
+        <section id="file-input">
+            <input type="file" id="upload" accept=".xlsx" />
+            <p id="file-name"></p> <!-- Add this line to display the file name -->
+        </section>
+        <section id="table-container">
+            <table id="xlsx-table">
+                <!-- Table contents will be generated here -->
+            </table>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/xlsx"></script>
+    <script src="script.js"></script>
+</body>
+</html>
